@@ -30,13 +30,13 @@ public class MyTwitter {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter Twitter Consumer Key: ");
-		//twitter_consumer_key = sc.nextLine();
+		twitter_consumer_key = sc.nextLine();
 		System.out.println("Please enter Twitter Consumer Secret: ");
-		//twitter_consumer_secret = sc.nextLine();
+		twitter_consumer_secret = sc.nextLine();
 		System.out.println("Please enter Twitter Access Token: ");
-		//twitter_access_token = sc.nextLine();
+		twitter_access_token = sc.nextLine();
 		System.out.println("Please enter Twitter Access Secret: ");
-		//twitter_access_secret = sc.nextLine();
+		twitter_access_secret = sc.nextLine();
 		System.out.println("Please enter value for K: ");
 		k = sc.nextInt();
 		System.out.println("Please enter value for sliding window time (# of tweets in a window): ");
